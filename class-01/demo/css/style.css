@@ -1,0 +1,15 @@
+header nav{
+    background-color: rgba(48, 48, 129, 0.438);
+}
+
+#unique{
+    background-color: salmon;
+}
+
+.same{
+    background-color: silver;
+}
+
+.aboutusClass{
+    background-color: skyblue;
+}
