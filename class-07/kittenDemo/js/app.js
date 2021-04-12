@@ -5,6 +5,7 @@ function randomValue(min, max) { // min and max included
 
 
 // Constructor function (Template)
+let container = document.getElementById('kittenProfiles');
 let arrOfobjects = [];
 function Kitten(kittenName,likes,isGoodWithKids,isGoodWithOtherCats,isGoodWithDogs,breed){
    this.kittenName = kittenName;
@@ -38,7 +39,7 @@ Kitten.prototype.getAge = function(){
 }
 
 Kitten.prototype.render = function(){
-    let container = document.getElementById('kittenProfiles');
+
     let article = document.createElement('article');
     container.appendChild(article);
     let h2 = document.createElement('h2');
