@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn-1">
+        Clickable
+    </button>
+
+    <p id="p-one">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis adipisci, a quos ut beatae illo, recusandae aliquam expedita rem temporibus corrupti sequi. Necessitatibus illum accusamus, iste velit quae nisi magni?
+    </p>
+
+
+<script>
+'use strict';
+const button = document.getElementById('btn-1');
+button.addEventListener('click', function(){
+    alert('sayHi');
+});
+
+let pOne = document.getElementById('p-one');
+pOne.addEventListener('mouseover', changeText);
+
+function changeText(){
+    pOne.textContent = 'Genrated By an event!';
+}
+
+// function sayHi(){
+//     alert('Hi');
+// }
+
+</script>
+    
+</body>
+</html>
