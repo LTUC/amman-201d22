@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: gray
+}
+
+video {
+  /*width: 30%;*/
+}
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 200px;
+  height: 25px;
+  background-color: #95B9C7;
+}
+
+/* audio{
+  background-color: #fff;
+  width: 500px;
+}
+iframe {
+  border-radius: 40px;
+  width: 300px;
+  height: 200px;
+} */
